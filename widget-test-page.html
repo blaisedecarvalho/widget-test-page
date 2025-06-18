@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <script id="insert-bsport-widget-cdn">
+      !(function (b, s, p, o, r, t) {
+        !typeof window.BsportWidget !== "undefined" &&
+          !document.getElementById("bsport-widget-cdn") &&
+          !(function () {
+            (m = b.createElement(s)),
+              (m.id = "bsport-widget-cdn"),
+              (m.src = p),
+              b.getElementsByTagName("head")[0].appendChild(m);
+          })();
+      })(
+        document,
+        "script",
+        "https://cdn-basketball.chaos.bsport.io/scripts/widget.js"
+      );
+    </script>
+    <script id="bsport-widget-mount">
+      function MountBsportWidget(config, repeat = 1) {
+        if (repeat > 50) {
+          return;
+        }
+        if (!window.BsportWidget) {
+          return setTimeout(() => {
+            MountBsportWidget(config, repeat + 1);
+          }, 100 * repeat || 1);
+        }
+        BsportWidget.mount(config);
+      }
+    </script>
+    <script>
+      MountBsportWidget({
+        parentElement: "bsport-widget-679138",
+        companyId: 2,
+        franchiseId: null,
+        dialogMode: 1,
+        widgetType: "loginButton",
+        showFab: false,
+        fullScreenPopup: false,
+        styles: undefined,
+        config: {
+          loginButton: { openMemberProfile: true },
+        },
+      });
+    </script>
+    <div id="bsport-widget-679138"></div>
+    <script id="insert-bsport-widget-cdn">
+      !(function (b, s, p, o, r, t) {
+        !typeof window.BsportWidget !== "undefined" &&
+          !document.getElementById("bsport-widget-cdn") &&
+          !(function () {
+            (m = b.createElement(s)),
+              (m.id = "bsport-widget-cdn"),
+              (m.src = p),
+              b.getElementsByTagName("head")[0].appendChild(m);
+          })();
+      })(
+        document,
+        "script",
+        "https://cdn-basketball.chaos.bsport.io/scripts/widget.js"
+      );
+    </script>
+    <script id="bsport-widget-mount">
+      function MountBsportWidget(config, repeat = 1) {
+        if (repeat > 50) {
+          return;
+        }
+        if (!window.BsportWidget) {
+          return setTimeout(() => {
+            MountBsportWidget(config, repeat + 1);
+          }, 100 * repeat || 1);
+        }
+        BsportWidget.mount(config);
+      }
+    </script>
+    <script>
+      MountBsportWidget({
+        parentElement: "bsport-widget-673002",
+        companyId: 2,
+        franchiseId: null,
+        dialogMode: 1,
+        widgetType: "calendar",
+        showFab: false,
+        fullScreenPopup: false,
+        styles: undefined,
+        config: {
+          calendar: {
+            coaches: [],
+            establishments: [],
+            metaActivities: [],
+            levels: [],
+            variant: null,
+            groupSessionByPeriod: true,
+          },
+        },
+      });
+    </script>
+    <div id="bsport-widget-673002"></div>
+    <script id="insert-bsport-widget-cdn">
+      !(function (b, s, p, o, r, t) {
+        !typeof window.BsportWidget !== "undefined" &&
+          !document.getElementById("bsport-widget-cdn") &&
+          !(function () {
+            (m = b.createElement(s)),
+              (m.id = "bsport-widget-cdn"),
+              (m.src = p),
+              b.getElementsByTagName("head")[0].appendChild(m);
+          })();
+      })(
+        document,
+        "script",
+        "https://cdn-basketball.chaos.bsport.io/scripts/widget.js"
+      );
+    </script>
+    <script id="bsport-widget-mount">
+      function MountBsportWidget(config, repeat = 1) {
+        if (repeat > 50) {
+          return;
+        }
+        if (!window.BsportWidget) {
+          return setTimeout(() => {
+            MountBsportWidget(config, repeat + 1);
+          }, 100 * repeat || 1);
+        }
+        BsportWidget.mount(config);
+      }
+    </script>
+    <script>
+      MountBsportWidget({
+        parentElement: "bsport-widget-614440",
+        companyId: 2,
+        franchiseId: null,
+        dialogMode: 1,
+        widgetType: "pass",
+        showFab: false,
+        fullScreenPopup: false,
+        styles: undefined,
+        config: {
+          pass: { paymentPackCategories: [], privatePassCategories: [] },
+        },
+      });
+    </script>
+    <div id="bsport-widget-614440"></div>
+  </body>
+</html>
